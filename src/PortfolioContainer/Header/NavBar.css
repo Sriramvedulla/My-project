@@ -1,0 +1,53 @@
+.sticky-element {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.my-2 img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: conic-gradient(
+    springgreen 0% 14.28%,
+    #ff00ff 14.28% 28.57%,
+    #0000ff 28.57% 42.85%,
+    #00ff00 42.85% 57.14%,
+    cornflowerblue 57.14% 71.42%,
+    crimson 71.42% 85.71%,
+    orange 85.71% 100%
+  );
+  background-clip: border-box;
+  border: 3px solid transparent;
+  border-image: conic-gradient(
+      springgreen 0% 14.28%,
+      #ff00ff 14.28% 28.57%,
+      #0000ff 28.57% 42.85%,
+      #00ff00 42.85% 57.14%,
+      cornflowerblue 57.14% 71.42%,
+      crimson 71.42% 85.71%,
+      orange 85.71% 100%
+    )
+    1;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo-name h3 {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#basic-navbar-nav {
+  color: #fff;
+}
+.NavLink:hover,
+.NavLink:active {
+  background-color: #44e7d8;
+}
