@@ -19,7 +19,7 @@ const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0e7lfteLEoU1h_lADXscsntGD7NxoUxEUEg&usqp=CAU",
     description:
       "In this project, I use mainly ReactJS for frontend, for styling I use Bootstrap and Reactstrap",
-    link: "https://imaginative-profiterole-ad771c.netlify.app",
+    link: "https://sriram-weather-app.netlify.app",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7gcunaL_rDzn5uIEv9dRTbPGJW1P-tpD8ow&usqp=CAU",
     description:
       "In this project, I use mainly ReactJS for frontend, for styling I use Bootstrap and Reactstrap",
-    link: "https://imaginative-profiterole-ad771c.netlify.app",
+    link: "https://todo-list-e42187.netlify.app",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzIS8OPH27uuOkNpRavgwl78AetPb0I3ovOg&usqp=CAU",
     description:
       "It's an AI application where you can get the image from the text, in this project I use ReactJS for frontend and Node and Express for backend, and for database purpose, I used MongoDB Atlas",
-    link: "https://imagegenerator-openai.netlify.app",
+    link: "https://sriram-chatbotapp.netlify.app",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqlcLOR2ByBjD2hQxroEJtLPk9UMV-X8-98myd-mqRuUKF71LD8i4ufPDwWr2U69Jgekg&usqp=CAU",
     description:
       "It's an AI application where you can get the image from the text, in this project I use ReactJS for frontend and Node and Express for backend, and for database purpose, I used MongoDB Atlas",
-    link: "https://imagegenerator-openai.netlify.app",
+    link: "https://speechtext-converter.netlify.app",
   },
 ];
 
