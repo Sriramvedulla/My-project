@@ -49,21 +49,20 @@
   margin-left: 15%;
 }
 .about-mine {
-  margin-top: 8%;
   display: flex;
+  margin-top: 30px;
 }
 .abt-mine {
-  display: grid;
+  width: 50%;
 }
-.abt-mine-details {
-  width: 100%;
-  display: grid;
+.about-skills {
+  width: 50%;
+  margin-left: 20px;
 }
-strong {
-  letter-spacing: 1px;
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .abt-mine-title,
 .skills-title {
@@ -75,21 +74,12 @@ strong {
 .abt-mine-para {
   font-size: 1rem;
   color: #fff;
-  max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
 .abt-mine-para a {
   color: #b6cc76;
   font-weight: 700;
-}
-.about-skills {
-  width: 100%;
-  margin-left: 10rem;
-}
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
 }
 .lists {
   padding: 1rem 1rem;

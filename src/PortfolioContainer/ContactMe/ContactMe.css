@@ -38,3 +38,27 @@
   border-radius: 5px;
   margin-top: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
+
+  .row {
+    margin: 25px 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+  }
+
+  .row {
+    margin: 25px 15px;
+  }
+
+  .send-btn {
+    margin-top: 15px;
+  }
+}
