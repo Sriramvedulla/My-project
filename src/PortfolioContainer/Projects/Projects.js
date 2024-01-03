@@ -10,7 +10,7 @@ const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHHiR_bKbFopbjc5YkdwLr96p2pkMqZSp2-GMAXt78RTWkqIj8YjDHokKSqwKDCdDFH2s&usqp=CAU",
     description:
       "It's a ticket booking app where I use ReactJs, Reactstrap and MUI for frontend purpose.",
-    link: "https://streampage.vercel.app/",
+    link: "https://my-bookmyshow.netlify.app/",
   },
   {
     id: 2,
