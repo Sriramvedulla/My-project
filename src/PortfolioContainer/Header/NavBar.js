@@ -1,5 +1,6 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 
 function BasicExample() {
@@ -22,24 +23,26 @@ function BasicExample() {
           style={{ backgroundColor: "#fff" }}
         />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav>
-            <Nav.Link href="/" className="NavLink" style={{ color: "#fff" }}>
+          <Nav className="nav">
+            <NavLink exact to="/" className="NavLink" style={{ color: "#fff" }}>
+              {" "}
+              {/* Use NavLink with 'to' instead of 'href' */}
               Home
-            </Nav.Link>
-            <Nav.Link
-              href="/projects"
+            </NavLink>
+            <NavLink
+              to="/projects"
               className="NavLink"
               style={{ color: "#fff" }}
             >
               Projects
-            </Nav.Link>
-            <Nav.Link
-              href="/contact"
+            </NavLink>
+            <NavLink
+              to="/contact"
               className="NavLink"
               style={{ color: "#fff" }}
             >
               Contact Me
-            </Nav.Link>
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

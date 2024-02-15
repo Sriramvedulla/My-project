@@ -34,10 +34,9 @@ function About() {
                 .
               </p>
               <p className="abt-mine-para">
-                I'm open to <strong>Job</strong> opportunities where I can
-                contribute, learn and grow. If you have a good opportunity that
-                matches my skills and experience then don't hesitate to
-                <strong> Contact</strong> me.
+                I'm open to Job opportunities where I can contribute, learn and
+                grow. If you have a good opportunity that matches my skills and
+                experience then don't hesitate to Contact me.
               </p>
             </div>
           </div>
@@ -48,6 +47,7 @@ function About() {
               <div className="lists">CSS</div>
               <div className="lists">JavaScript</div>
               <div className="lists">React Js</div>
+              <div className="lists">Bootstrap</div>
               <div className="lists">SQL Basics</div>
               <div className="lists">MongoDB Basics</div>
             </div>

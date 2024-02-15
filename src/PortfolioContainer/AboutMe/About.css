@@ -77,6 +77,10 @@
   line-height: 1.7;
   margin-bottom: 1rem;
 }
+.abt-mine-para strong {
+  letter-spacing: 1px;
+  color: rgb(114, 113, 113);
+}
 .abt-mine-para a {
   color: #b6cc76;
   font-weight: 700;
@@ -86,9 +90,22 @@
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   background: rgba(219, 112, 112, 0.2);
   border-radius: 5px;
   font-weight: 600;
   color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .about-mine {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .abt-mine {
+    width: 100%;
+  }
+  .about-skills {
+    width: 100%;
+    margin: auto;
+  }
 }

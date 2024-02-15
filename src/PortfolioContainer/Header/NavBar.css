@@ -47,7 +47,20 @@
 #basic-navbar-nav {
   color: #fff;
 }
-.NavLink:hover,
-.NavLink:active {
-  background-color: #44e7d8;
+.NavLink {
+  padding: 5px 10px;
+  letter-spacing: 1px;
+}
+.NavLink:hover {
+  background-color: rgb(58, 58, 238);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.active {
+  background-color: rgb(58, 58, 238);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.nav {
+  gap: 20px;
 }

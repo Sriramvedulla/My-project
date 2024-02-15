@@ -76,6 +76,49 @@
   transform: scale(1.5);
 }
 
+.home-hero-mouse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.mouse::before {
+  content: " ";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2s linear infinite;
+}
+
+@keyframes wheel {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  50% {
+    top: calc(50% - 2.5px);
+    opacity: 0.3;
+  }
+  100% {
+    top: calc(100% - 5px);
+    opacity: 0;
+  }
+}
 @media screen and (max-width: 1110px) {
   .profile-picture {
     margin: 0 0px 0 80px;
@@ -109,6 +152,7 @@
   .profile-options {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
   }
   .profile-details {
     margin: 25px 0 0;
@@ -119,6 +163,10 @@
   .profile-options .profile-details-role {
     text-align: center;
   }
+  .home-hero-mouse {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 @media screen and (max-width: 375px) {
   .profile-picture {
@@ -128,5 +176,9 @@
   }
   .profile-details {
     width: 90%;
+  }
+  .home-hero-mouse {
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }

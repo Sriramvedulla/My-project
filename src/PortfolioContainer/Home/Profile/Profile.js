@@ -63,7 +63,11 @@ export default function Profile() {
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
+          <div class="home-hero-mouse">
+            <div class="mouse"></div>
+          </div>
         </div>
+
         <div className="profile-picture">
           <div className="profile-picture-background"></div>
         </div>
