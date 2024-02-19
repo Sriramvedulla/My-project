@@ -27,8 +27,8 @@ const projects = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7gcunaL_rDzn5uIEv9dRTbPGJW1P-tpD8ow&usqp=CAU",
     description:
-      "It is developed by using JavaScript, Html and CSS to ADD, Edit and Delete the Tasks.",
-    link: "https://todo-list-e42187.netlify.app",
+      "It is developed in React.Js by using JavaScript, Html and CSS to Add, Edit and Delete the To-do Tasks.",
+    link: "https://addingoftask.netlify.app/",
   },
   {
     id: 4,
